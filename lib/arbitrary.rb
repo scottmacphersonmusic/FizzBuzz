@@ -1,7 +1,7 @@
 def arb_fizz(limit, word_hash)
-  numbers = (2..limit).to_a
+  numbers = (1..limit).to_a
   keys = word_hash.keys
-  fizz = %w(0 1)
+  fizz = %w(0)
   numbers.each do |num|
     output = ""
     matches = keys.select { |key| num % key == 0 }
