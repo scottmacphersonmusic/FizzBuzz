@@ -8,5 +8,3 @@ def fizzbuzz(first, last)
     puts output
   end
 end
-
-fizzbuzz(2, 17)
